@@ -20,6 +20,7 @@ go get github.com/yinheli/qqwry
 ```go
 import (
 	"github.com/yinheli/qqwry"
+	"log"
 )
 
 func main() {
