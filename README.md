@@ -10,6 +10,8 @@ QQWry
 ```bash
 go get code.google.com/p/mahonia
 ```
+* 纯真 IP 库
+> 下载地址 http://update.cz88.net/soft/qqwry.rar
 
 ## 2. 使用
 * 下载
