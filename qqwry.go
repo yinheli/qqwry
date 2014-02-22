@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	qqwry := NewQwry("qqwry.dat")
+	qqwry := NewQQwry("qqwry.dat")
 	qqwry.Find("180.89.94.90")
 	log.Printf("ip:%v, Country:%v, City:%v", qqwry.Ip, qqwry.Country, qqwry.City)
 }
@@ -30,7 +30,7 @@ type QQwry struct {
 	file     *os.File
 }
 
-func NewQwry(file string) (qqwry *QQwry) {
+func NewQQwry(file string) (qqwry *QQwry) {
 	qqwry = &QQwry{filepath: file}
 	return
 }
