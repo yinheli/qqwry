@@ -4,16 +4,9 @@ import (
 	"code.google.com/p/mahonia"
 	"encoding/binary"
 	// "encoding/hex"
-	"log"
 	"net"
 	"os"
 )
-
-func main() {
-	qqwry := NewQQwry("qqwry.dat")
-	qqwry.Find("180.89.94.90")
-	log.Printf("ip:%v, Country:%v, City:%v", qqwry.Ip, qqwry.Country, qqwry.City)
-}
 
 const (
 	INDEX_LEN       = 7
