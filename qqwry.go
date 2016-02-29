@@ -1,8 +1,9 @@
 package qqwry
 
 import (
-	"code.google.com/p/mahonia"
 	"encoding/binary"
+
+	"github.com/yinheli/mahonia"
 	// "encoding/hex"
 	"net"
 	"os"
